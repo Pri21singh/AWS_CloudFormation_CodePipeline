@@ -8,10 +8,9 @@ Parameters:
  
   VersioningEnabled:
     Type: String
-    Default: 'Enabled'
+    Default: 'Suspended'
     AllowedValues:
-      - 'Enabled'
-      - 'Disabled'
+      - 'Suspended'
     Description: Enable or disable versioning for the S3 bucket.
  
 Resources:
